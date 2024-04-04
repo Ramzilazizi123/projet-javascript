@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projet</title>
+  <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+  <!-- Boutons interactifs -->
+  <div id="nav1">
+    <button class="button" id="contactButton">Contact</button>
+   <button class="button" id="videoButton">Vidéo</button>
+   <button class="button" id="photoButton">Photo</button>
+    <button class="button" id="cvButton">CV</button>
+  </div>
+  
+  
+  <!-- Formulaire de contact (popup) -->
+  <div id="contactPopup" class="section">
+    <h2>Formulaire de contact</h2>
+    <form>
+      <!-- Vos champs de formulaire ici -->
+      <label for="name">Nom:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="name">prenom:</label>
+      <input type="text" id="name" name="name" required><br><br>
+      <label for="name">telephone:</label>
+      <input type="text" id="namero" name="numero" required><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+
+  <!-- Vidéo de présentation -->
+  <div id="video" class="section">
+    <h2>Vidéo de présentation</h2>
+    <iframe width="560" height="315" src="videoplayback.mp4" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <!-- Photo de vous et de votre binôme -->
+  <div id="photo" class="section">
+    <img src="77ab6b6f87ae44c8dbbd88000365e225.jpg" alt="Photo de vous et de votre binôme">
+  </div>
+
+  <!-- CV -->
+  <div id="cv" class="section">
+    <h2>Votre CV</h2>
+    <!-- Lien vers votre CV -->
+    <a href="CV.pdf" target="_blank">Télécharger le CV</a>
+  </div>
+  <div><script src="js.js"></script></div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('depositphotos_301007894-stock-photo-the-croupier-holds-a-roulette.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+  }
+
+  #content {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+
+  #feedback {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  input[type="text"],
+  button {
+    font-size: 18px; /*la taille de texte*/
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
